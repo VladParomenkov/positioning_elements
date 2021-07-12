@@ -4,7 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Positioning elements</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <table>
+      <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+      </tr>
+      <tr class="bd-gray">
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+      </tr>
+      <tr>
+        <td colspan="2">One</td>
+        <td rowspan="2">Two</td>
+      </tr>
+      <tr class="bd-gray">
+        <td>One</td>
+        <td>Two</td>
+      </tr>
+    </table>
+
+    <h1>Email</h1>
+    <table class="my-email">
+      <tr>
+        <td colspan="2">Проверочная фраза</td>
+        <td>+37529 754-91-51</td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2">
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>
+        </td>
+        <td>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic
+          repellendus est perspiciatis in labore sequi, tenetur libero. Alias
+          minus dolorum neque, dolor earum quaerat quo voluptas iure quam
+          pariatur!
+        </td>
+      </tr>
+      <tr>
+        <td>footer</td>
+      </tr>
+    </table>
+  </body>
 </html>
